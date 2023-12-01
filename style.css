@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:gainsboro;
+}
+.container{
+    width: 100%;
+    height: 65vh;
+    background-color:gray;
+    padding-top: 2cm;
+}
+.nav1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 2cm;
+    height: 2cm;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav1 li{
+    display: block;
+    /* list-style: none; */
+}
+.active{
+    background: #fff;
+    color: #333;
+}
+.nav1 li a{
+    /* background-color:black; */
+    /* display: flex; */
+    /* height: 1cm;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; */
+    display: block;
+    /* border: red solid; */
+    padding: 5px 10px;
+}
+.nav2{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.849);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.list{
+   
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 0.5cm;
+}
+.nav2 li{
+    list-style: none;
+}
+.nav2 li a{
+    background-color:black;
+    display: flex;
+    height: 1cm;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+.affi{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.affi h1{
+    width: 80%;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.affi p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    text-align: center;
+}
+#toggle{
+    display: none;
+}
+.label{
+    color: white;
+    background-color: black;
+    display:flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    padding: 10px;
+
+    
+}
+
+.container2{
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.left{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    flex-basis: 25%;
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+}
+.middle{
+    overflow-y: scroll;
+    padding: 10px;
+    min-width: 350px;
+    height: 100vh;
+    flex-basis: 50%;
+
+}
+#toggle2{
+ display: none;
+}
+
+.content{
+    width: 100%;
+    padding: 0 0.5cm;
+}
+.to2{
+    display: none;
+}
+.to2{
+    border: 2px solid black;
+    width: 0.3cm;
+    height: 0.3cm;
+    position: relative;
+    left: 3cm;
+    top: -.4cm;
+}
+.content h2{
+   font-size: 20px;
+   margin-top:0.5cm;
+   width: 100%;
+}
+.content li{
+    list-style: none;
+    margin-top: 1cm;
+}
+.content li a {
+    font-size: small;
+    font-weight: 300;
+    color: black;
+}
+.rightbox{
+    padding-left: 1cm;
+    width: 80%;
+}
+
+.img1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1cm;
+    flex-direction: column;
+    gap: 0.5cm;
+}
+figure{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 600;
+}
+.p{
+    font-weight: 500;
+}
+.p a{
+    text-decoration: none;
+}
+.p1{
+    font-weight: 600;
+    margin-top: 1cm;
+}
+.p2{
+    display: flex;
+}
+.s1{
+    flex-grow: 1;
+}
+.mid{
+    padding-top: 2cm;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 0.5cm;
+}
+.h3{
+    text-transform: capitalize;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+.mid p{
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+}
+.h4{
+    text-transform: capitalize;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+.test{
+    box-shadow: 0 0 10px 10px black;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 0.5cm;
+}
+.testi{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 5px gray;
+}
+.testi img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+p a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.igp{
+    font-weight: 600;
+    box-shadow: 5px 10px 10px black;
+    padding-bottom: 10px;
+}
+.ll{
+    border-bottom: 3px solid black;
+
+}
+.ou{
+    position: relative;
+}
+.contactus{
+    background-color: gray;
+    position: fixed;
+    top: 85vh;
+    right: 2cm;
+    width: 3.5cm;
+    height: 2.5cm;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+.contactuss{
+    background-color: white;
+    box-shadow: 0 0 10px 5px black;
+    position: fixed;
+    top: 85vh;
+    right: 2cm;
+    width: 3.5cm;
+    height: 2.5cm;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: none;
+    
+}
+
+.contactuss p a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.contactus .us{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.h2 a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+.contents7{
+    text-align: left;
+    margin-top: 0.5cm;
+    line-height: 1.5;
+}
+/* media */
+@media(width < 600px){
+    .left{
+        position: absolute;
+        left: 0;
+        width: 5cm;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 0.5cm;
+        border-radius: 0 20px 20px 0;
+    }
+    .to2{
+        display: block;
+    }
+    .affi{
+        height: 90%;
+        width: 60%;
+    }
+    .cooo{
+        display: none;
+    }
+    #toggle2:checked ~ .cooo{
+        display: block;
+    }
+    #toggle2:checked ~ label{
+        transform: rotate(47deg);
+    }
+}
+@media(width > 600px){
+
+    
+}
+@media(width < 700px){
+    .nav1{
+        display: none;
+    }
+    .content li{
+        margin-top: 0.6cm;
+    }
+    .list{
+        display: none;
+    }
+    #toggle:checked ~ .list{
+        display: flex;
+    }
+    .contactus{
+        top: 70vh;
+        right: 1cm;
+    }
+    .contactuss{
+        top: 70vh;
+        right: 1cm;
+    }
+}
+@media(width > 700px){
+    .nav2{
+        display:none;
+    }
+}
